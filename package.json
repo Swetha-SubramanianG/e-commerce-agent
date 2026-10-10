@@ -1,0 +1,23 @@
+{
+  "name": "ai-shopping-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered Shopping Assistant for E-commerce website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test-agent.js"
+  },
+  "keywords": [
+    "ai",
+    "shopping-assistant",
+    "ecommerce",
+    "prompt-engineering"
+  ],
+  "author": "College PE Lab",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1"
+  }
+}
